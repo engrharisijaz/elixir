@@ -2,8 +2,8 @@
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
 
-#define FIREBASE_HOST "testproject-e50f7.firebaseio.com"
-#define FIREBASE_AUTH "YmLroRnhOFSeU6YebwCN4kJWlC1eSzBA71deBjtI"
+#define FIREBASE_HOST "**************"
+#define FIREBASE_AUTH "**************"
 #define WIFI_SSID "DELL"                                               //your WiFi SSID for which yout NodeMCU connects
 #define WIFI_PASSWORD "12345678"  
 
@@ -18,7 +18,7 @@ float nCurrThruResistorPP1;
 float nCurrThruResistorRMS1;
 float nCurrentThruWire1;
 
-String apiWritekey = "TJ3RGPOEYG50BAOS";
+String apiWritekey = "**************";
 const char* server = "api.thingspeak.com";
 WiFiClient client;
 
