@@ -8,8 +8,8 @@
 #include <ThingSpeak.h>
 #include <ESP8266WiFi.h>
 
-#define FIREBASE_HOST "testproject-e50f7.firebaseio.com"
-#define FIREBASE_AUTH "YmLroRnhOFSeU6YebwCN4kJWlC1eSzBA71deBjtI"
+#define FIREBASE_HOST "**************"
+#define FIREBASE_AUTH "**************"
 
 #define WIFI_SSID "DELL"
 #define WIFI_PASSWORD "12345678"
@@ -39,7 +39,7 @@ float nCurrentThruWire2;
 
 
 
-String apiWritekey = "2LZS2B3N7BUVK43H";
+String apiWritekey = "**************";
 const char* server = "api.thingspeak.com";
 WiFiClient client;
 
